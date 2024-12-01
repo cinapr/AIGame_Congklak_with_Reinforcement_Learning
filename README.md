@@ -12,4 +12,4 @@ Second assignment of Course 1.5: Artificial Intelligence – 6 ECTS : Congklak G
 
 3. Or run **AI_286702_CindyAprilia_Assignment2_1_3 - 1\Main.ipynb** in Jupyter Notebook
 
-4. PS: Ignore first submission as it was the older version
+4. PS: Ignore first submission as it was the older version, you can compare yourself against the 2nd report
