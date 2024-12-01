@@ -1,0 +1,7 @@
+1. Change min-max agent into lighter and simpler, alpha-beta pruning
+2. Delete another puzzle and unused algorithm (A*, GREEDY, DFS)
+3. Enhance the board into changeable board (Cover various region games)
+4. Define best depth 
+5. Try to integrate variance changing to agent
+6. Add Reinforcement Learning (Q) to create dataset
+7. If the pattern have been played before, agent will get from dataset instead of do min-max

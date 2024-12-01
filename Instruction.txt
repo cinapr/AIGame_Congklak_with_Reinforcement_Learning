@@ -1,0 +1,33 @@
+Artificial Intelligence/Intelligent Agents 2022/2023
+
+Homework2 Adaptive Search
+
+
+Homework 2 Adaptive MinMax
+Deadline : 8 December 2022 - 23.59
+Instruction:
+
+
+Step 1:Implement possible variations on αβMinMaxL search that would speed up computation:
+
+a) αβMinMaxbest l :explore only subtrees of most promising nodes (i.e. best k nodes according the Hl evaluation, l may go from 0 to L, obviously the larger it is the better it performs but the less speed-up is obtained). Experiment on some small values of l to set it up to a value that suits your computing resources…
+b1) αβMinMaxconsistent:explore only subtrees of nodes such that their evaluations [H0,H1,…,Hl] have smallest variance i.e. b1) k nodes whose evaluations at increasing levels has least variance, or
+b2) nodes whose evaluations at increasing levels has variance smaller than a fixed threshold
+
+c) αβMinMaximproving :explore only subtrees of nodes such that their evaluations [H0,H1,…,Hl] is increasing(decreasing)
+
+ci) strictly increasing may not be a good choice, you may want to experiment on different implementations of the increasing/decreasing condition…
+
+Step 2: -Use your version of MinMax speed upthat you developed in step 1 to create a training set for learning the HL evaluation of states, given h0,...hk static evaluation/observation of the state.
+
+Populate the TS by playing games…
+
+-Train you regressor (you can import library functions…) to obtain a predictiveLMinMax1( that is speed upMinMax at level 1 that uses the prediction as static evaluation)
+
+
+
+-Evaluate performance of your predictiveLMinMax1 against your speed upMinMaxL , and against speed upMinMaxL/2
+
+
+
+-Evaluate performance of your predictiveLMinMaxL ((MinMax at level L that uses the prediction as static evaluation) against your speed upMinMaxL , and against speed upMinMaxL/2
