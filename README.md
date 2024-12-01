@@ -7,7 +7,7 @@ Second assignment of Course 1.5: Artificial Intelligence – 6 ECTS : Congklak G
    For the changes please kindly check _Changelog against AIGame_Pancake_Congklak.txt
    For the questions and instruction related to this assignmend, please kindly check on Questions for this Homework2.pdf and Instruction.txtk
 
-2. PS: Ignore first submission as it was the older version, you can compare yourself against the 2nd report
+2. PS: Ignore 1st submission.zip as it was the older version. That version was worked, but there is several enhancement in new version especially on testing. You can compare the changes yourself against the 2nd report
    
 3. Clone the repository:
    ```bash
