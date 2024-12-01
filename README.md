@@ -11,3 +11,5 @@ Second assignment of Course 1.5: Artificial Intelligence – 6 ECTS : Congklak G
 2. Open **AI_286702_CindyAprilia_Assignment2_1_3 - 1.sln** in Visual Studio Code
 
 3. Or run **AI_286702_CindyAprilia_Assignment2_1_3 - 1\Main.ipynb** in Jupyter Notebook
+
+4. PS: Ignore first submission as it was the older version
